@@ -35,5 +35,7 @@ input[type="submit"]{
 }
 
 .display{
+    display: flex;
+    justify-content: space-around;
     text-align: center;
 }
