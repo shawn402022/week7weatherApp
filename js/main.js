@@ -28,14 +28,14 @@ button.addEventListener('click', function(){
             var windValue = data['wind']['speed'];
             var humidityValue = data ['main']['humidity'];
             
-            cityname.innerHTML = "City - "+nameValue
-            desc.innerHTML = "Forcast - "+descValue;
-            temp.innerHTML = "Current Temp - "+tempValue;
-            tempMin.innerHTML = "Low - "+tempMinValue;
-            tempMax.innerHTML = "High - "+tempMaxValue;
-            tempFeel.innerHTML = "Wind Chill - "+tempFeelValue;
-            wind.innerHTML = "Wind - "+windValue;
-            humidity.innerHTML = "Humidity - "+humidityValue;
+            cityname.innerHTML = nameValue
+            desc.innerHTML = "Forcast  "+descValue;
+            temp.innerHTML = "Temp  "+tempValue;
+            tempMin.innerHTML = "Low  "+tempMinValue;
+            tempMax.innerHTML = "High  "+tempMaxValue;
+            tempFeel.innerHTML = "Feels Like  "+tempFeelValue;
+            wind.innerHTML = "Wind  "+windValue;
+            humidity.innerHTML = "Humidity  "+humidityValue;
 
 
         })

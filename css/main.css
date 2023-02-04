@@ -38,4 +38,25 @@ input[type="submit"]{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    background: #e7e7e7;
+}
+
+.cityname{
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.display-box{
+    display: flex;
+    flex-direction: row;
+    background: #e7e7e7;
+    border-color: black;
+    border: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+
+
 }
